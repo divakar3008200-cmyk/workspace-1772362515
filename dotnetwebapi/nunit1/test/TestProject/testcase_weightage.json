@@ -1,0 +1,16 @@
+[
+  { "name": "FileExistence_AircraftModelExists", "weightage": 0.06 },
+  { "name": "FileExistence_MaintenanceModelExists", "weightage": 0.06 },
+  { "name": "FileExistence_ExceptionExists", "weightage": 0.06 },
+  { "name": "Reflection_AircraftModel_HasRequiredProperties", "weightage": 0.07 },
+  { "name": "Reflection_AircraftController_HasCreateMethod", "weightage": 0.07 },
+  { "name": "Reflection_DbContext_HasDbSetProperties", "weightage": 0.07 },
+  { "name": "API_PostAircraft_ReturnsCreated", "weightage": 0.1 },
+  { "name": "API_GetAircraftById_NotFound_Returns500_or_404", "weightage": 0.05 },
+  { "name": "API_FullCrud_Aircraft_Workflow", "weightage": 0.12 },
+  { "name": "Negative_PostMaintenance_ForNonExistingAircraft_Returns500", "weightage": 0.05 },
+  { "name": "API_Maintenance_Crud_Workflow", "weightage": 0.12 },
+  { "name": "Negative_CreateAircraft_MissingRegistration_ReturnsBadRequest", "weightage": 0.05 },
+  { "name": "MethodExistence_AircraftController_HasDeleteMethod", "weightage": 0.05 },
+  { "name": "Boundary_Aircraft_Capacity_ZeroAcceptableOrNot", "weightage": 0.03 }
+]
